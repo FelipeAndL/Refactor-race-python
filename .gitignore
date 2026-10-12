@@ -1,0 +1,22 @@
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Cache e artefatos gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pytype/
+
+# Cobertura de testes
+.coverage
+.coverage.*
+htmlcov/
+
+# Arquivos de ferramentas locais
+.python-version
